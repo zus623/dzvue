@@ -27,11 +27,12 @@ function complete() {
 
 <style>
 .task-card {
+    background-color: rgb(109, 141, 131);
   display: flex;
   gap: 4px;
   flex-direction: column;
-  border: 1px solid #ccc;
-  padding: 12px;
-  border-radius: 8px;
+  border: 3px solid #6fd1ff;
+  padding: 20px;
+  border-radius: 18px;
 }
 </style>

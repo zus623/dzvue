@@ -19,15 +19,20 @@ import { ref, computed } from "vue";
 import TaskItem from "./components/TaskItem.vue";
 
 const tasks = [
-  { _id: "1", title: "Завтрак", text: "Приготовить завтрак и поесть" },
-  { _id: "2", title: "Прогулка", text: "После пар пройтись погулять" },
-  { _id: "3", title: "Сделать дз", text: "Вечером выполнить дз" },
-  { _id: "4", title: "Ужин", text: "Приготовить ужин и поесть" },
+  { _id: "1", title: "Проснуться", text: "Почистить зубы" },
+  { _id: "2", title: "Собраться", text: "Поехать в колледж" },
+  { _id: "3", title: "Вечером", text: "Поехать на тренировку" },
+  { _id: "4", title: "Перед сном", text: "Сходить в душ" },
 ];
 
 </script>
 
 <style>
+body{
+  background-color: #b9f3dd;
+  color: black;
+}
+
 .products {
   display: flex;
   gap: 16px;
